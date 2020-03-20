@@ -1,0 +1,68 @@
+*{
+	padding: 0px;
+    margin: 0px;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+section{
+	background: #edf0f5;
+}
+div.facebook{
+    width: 15%;
+}
+div.parrafo{
+	font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+	width: 32%;
+	display: inline-block;
+}
+div.formato{
+	display: inline-block;
+    border-radius: 6px;
+}
+input.nombre{
+	margin-top: 12px;
+    border-radius: 6px;
+    width: 30%;
+    padding: 6px;	
+    font-size: 19px;
+    border: 1px solid #ccd0d5;
+}
+input.movil{
+	margin-top: 12px;
+    border-radius: 6px;
+    width: 64%;
+    padding: 6px;
+    font-size: 19px;
+    border: 1px solid #ccd0d5;
+}
+input.boton{
+	width:30%;
+	border-radius: 6px;
+	padding: 7px 20px;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+	border: 1px solid #ccd0d5;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	background: linear-gradient(#67ae55, #578843);
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	height: 41px;
+	font-size: 19px;
+	margin-top: 23px;
+}
+input.boton:hover{
+	    background: linear-gradient(#79bc64, #578843);
+}
+.cambiar{
+	margin-top: 15px;
+}
+.tamaño{
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 0 10px 0 3px;
+	font-size: 18px;
+}
+.invisible{
+	text-decoration: none;
+}
